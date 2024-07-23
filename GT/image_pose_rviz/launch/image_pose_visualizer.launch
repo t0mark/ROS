@@ -1,0 +1,6 @@
+<launch>
+    <param name="image_folder" value="/home/tomark/toy/GT/train_frame"/>
+    <node name="image_pose_visualizer" pkg="image_pose_rviz" type="image_pose_visualizer.py" output="screen"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d /home/tomark/catkin_ws/src/image_pose_rviz/image_pose_config.rviz" output="screen"/>
+</launch>
+
